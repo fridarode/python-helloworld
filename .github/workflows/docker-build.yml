@@ -40,8 +40,8 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
-          context: .
-          file: ./Dockerfile
+          context: python-helloworld
+          file: python-helloworld/Dockerfile
           platforms: linux/amd64
           push: true
           tags: fridarode/python-helloworld:latest
