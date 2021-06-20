@@ -44,4 +44,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: fridarode/python-helloworld:latest
+          tags: fridarode/python-helloworld:v4.0.0
